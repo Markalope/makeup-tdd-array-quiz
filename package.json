@@ -1,0 +1,35 @@
+{
+  "name": "makeup-tdd-array-quiz",
+  "version": "1.0.0",
+  "description": "* Use **standard lab submission procedure** that you have used for past 9 weeks: fork, clone, work, push, PR!",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "mocha": "mocha",
+    "test": "npm run mocha",
+    "test:watch": "nodemon --exec 'npm run mocha -s'",
+    "start": "node server.js",
+    "start:watch": "nodemon server.js"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Markalope/makeup-tdd-array-quiz.git"
+  },
+  "author": "Mark Myers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Markalope/makeup-tdd-array-quiz/issues"
+  },
+  "homepage": "https://github.com/Markalope/makeup-tdd-array-quiz#readme",
+  "dependencies": {
+    "eslint": "^5.1.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.1"
+  }
+}
